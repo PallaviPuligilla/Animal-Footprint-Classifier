@@ -32,7 +32,7 @@ The backend interface for uploading Footprints
 
 3.Create a virtual environment:
 
-   ```cmd
+   ```powershell
    python -m venv myenv
 
 
@@ -40,22 +40,22 @@ The backend interface for uploading Footprints
 
 On Windows (Command Prompt):
 
-   ```cmd
+   ```powershell
   myenv\Scripts\activate
 
 On macOS/Linux:
 
-   ```bash
+   ```powershell
   source myenv/bin/activate
 
 
 5.Install the required libraries:
 
-   ```cmd
+   ```powershell
    pip install -r requirements.txt
 
 
 6.Run the application (Start the Streamlit app):
 
-   ```cmd
+   ```powershell
    streamlit run app.py
