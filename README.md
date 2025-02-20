@@ -32,30 +32,30 @@ The backend interface for uploading Footprints
 
 3.Create a virtual environment:
 
-```cmd
-python -m venv myenv
+   ```cmd
+   python -m venv myenv
 
 
 4.Activate the virtual environment:
 
 On Windows (Command Prompt):
 
-```cmd
-myenv\Scripts\activate
+   ```cmd
+  myenv\Scripts\activate
 
 On macOS/Linux:
 
-```bash
-source myenv/bin/activate
+   ```bash
+  source myenv/bin/activate
 
 
 5.Install the required libraries:
 
-```cmd
-pip install -r requirements.txt
+   ```cmd
+   pip install -r requirements.txt
 
 
 6.Run the application (Start the Streamlit app):
 
-```cmd
-streamlit run app.py
+   ```cmd
+   streamlit run app.py
