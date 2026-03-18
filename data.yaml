@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/dataset/train/images
+val: /content/drive/MyDrive/dataset/valid/images
+test: /content/drive/MyDrive/dataset/test/images
+nc: 5
+names: ['bear', 'canid', 'deer', 'felid', 'mustelid']
+
+
+roboflow:
+  workspace: my-workspace-cywis
+  project: animal-track-ftvw2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-workspace-cywis/animal-track-ftvw2/dataset/1

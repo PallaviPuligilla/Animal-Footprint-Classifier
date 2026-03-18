@@ -122,4 +122,8 @@ if uploaded_file is not None:
             st.write(f"- Confidence: {pred['confidence']:.2f}")
             
     else:
+<<<<<<< HEAD
         st.write("No animal footprints were detected in the image.")
+=======
+        st.write("No animal footprints were detected in the image.")
+>>>>>>> 0fdabb61c555cde80c19900c21ed3882435fc8e8
